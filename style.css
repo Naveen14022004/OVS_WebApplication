@@ -1,0 +1,58 @@
+#form{
+    width: 45%;
+    margin-left: 18%;
+    display: block;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 13em;
+    font-weight: bold;
+    cursor: pointer;
+}
+fieldset{
+    border-radius: 15px 15px 15px 15px;
+    background-image: url("./21392.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label{
+    font-weight: bold;
+    display: inline-block;
+    margin: 2px;
+}
+input[type=date],[type=number],[type=text],[type=data]{
+    background: #fff;
+    border: 1px solid #0000;
+    border-radius: 2px;
+    border-width: 1px;
+    color: #36454b;
+    font-size: 14px;
+    margin: 12px 12px;
+    padding: 12px 12px;
+    display: inline-block;
+}
+input[type=radio].g{
+    margin-left: 35px;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 24px;
+    margin: 12px 14px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.tex{
+    float: right;
+    margin-right: 2cm ;
+    position: relative ;
+    top: 0;
+    margin-top: 0%;
+}
